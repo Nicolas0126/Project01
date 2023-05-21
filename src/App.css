@@ -1,0 +1,55 @@
+.App {
+  display: grid;
+  justify-items: center;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.App__container {
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 2fr 3fr auto;
+  align-items: baseline;
+  background-position: center;
+  background-size: cover;
+}
+
+.App__container>h1 {
+  color: azure;
+  font-size: 40px;
+  display: flex;
+  align-self: end;
+  margin-bottom: 30px;
+}
+.App.bg1 {
+  background:  url('/public/planetas/planeta\ 1.png'), url('/public/espacio/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: 40%, cover;
+  background-position: bottom, center;
+}
+
+.App.bg2 {
+  background-image: url('/public/planetas/planeta\ 4.png'), url('/public/espacio/bg2.jpg');
+  background-repeat: no-repeat;
+  background-size: 40%, cover;
+  background-position: bottom, center;
+}
+
+.App.bg3 {
+  background-image: url('/public/planetas/planeta\ 3.png'), url('/public/espacio/bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: 40%, cover;
+  background-position: bottom, center;
+}
+
+.App.bg4 {
+  background-image: url('/public/planetas/planeta\ 2.png'), url('/public/espacio/bg4.jpg');
+  background-repeat: no-repeat;
+  background-size: 40%, cover;
+  background-position: bottom, center;
+}
+
+
+
