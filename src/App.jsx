@@ -3,6 +3,7 @@ import './App.css'
 import randomElement from './random'
 import dbItems from "./db/db.json"
 import Box from './components/Box'
+import Button from './components/Button'
 
 function App() {
 
@@ -23,7 +24,9 @@ function App() {
 
         <h1> <b>GALAXIONARY</b> </h1>
       
-        <Box phrase = {quote.phrase} handleChange= {handleChange}/>
+        <Box phrase = {quote.phrase} />
+        
+        <Button handleChange= {handleChange}/>
       
         <p>Fuente: {quote.author} </p>
       

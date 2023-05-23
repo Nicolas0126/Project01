@@ -1,0 +1,15 @@
+.box__btn {
+    display: block;
+    align-self: baseline;
+    margin: 10px auto;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.box__btn:hover {
+background-color: rgb(253, 253, 93);
+transition: background-color ease-in 0.5s ;
+}

@@ -10,15 +10,15 @@
 .App__container {
   display: grid;
   justify-items: center;
-  grid-template-rows: 2fr 3fr auto;
-  align-items: baseline;
+  grid-template-rows: 2fr 2fr 1fr auto;
+  /* align-items: baseline; */
   background-position: center;
   background-size: cover;
 }
 
 .App__container>h1 {
   color: azure;
-  font-size: 40px;
+  font-size: 80px;
   display: flex;
   align-self: end;
   margin-bottom: 30px;
@@ -26,7 +26,7 @@
 .App.bg1 {
   background:  url('/planetas/planeta1.png'), url('/espacio/bg1.jpg');
   background-repeat: no-repeat;
-  background-size: 40%, cover;
+  background-size: 30%, cover;
   background-position: bottom, center;
 }
 
@@ -51,5 +51,12 @@
   background-position: bottom, center;
 }
 
+@media (max-width: 600px) {
+  .App__container>h1 {
+    font-size: 40px;
+    align-self: center;
+  }
+  
+}
 
 
