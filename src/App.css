@@ -61,7 +61,16 @@
     margin-bottom: 50px;
     align-self: end;
   }
-  
+
+  .App.bg1,
+  .App.bg2,
+  .App.bg3,
+  .App.bg4 {
+    background-repeat: no-repeat;
+    background-size: 80%, cover;
+    background-position: bottom, center;
+  }
+ 
 }
 
 
