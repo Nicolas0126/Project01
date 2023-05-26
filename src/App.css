@@ -61,7 +61,10 @@
     margin-bottom: 50px;
     align-self: end;
   }
+ 
+}
 
+@media (max-width: 400px) {
   .App.bg1,
   .App.bg2,
   .App.bg3,
@@ -69,8 +72,18 @@
     background-repeat: no-repeat;
     background-size: 80%, cover;
     background-position: bottom, center;
+  } 
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .App.bg1,
+  .App.bg2,
+  .App.bg3,
+  .App.bg4 {
+    background-repeat: no-repeat;
+    background-size: 50%, cover;
+    background-position: bottom, center;
   }
- 
 }
 
 
